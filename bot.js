@@ -44,7 +44,7 @@ client.user.setGame(` 6help `,"http://twitch.tv/S-F")
   console.log('')
 });
 
-const prefix = "6"
+const prefix = "1"
 client.on('message', async msg => { 
 	
 	if (msg.author.bot) return undefined;
@@ -264,7 +264,7 @@ if (message.content.startsWith(adminprefix + 'setT')) {
 });
 
 client.on("message", message => {
- if (message.content === '6help') {
+ if (message.content === '1help') {
   const embed = new Discord.RichEmbed()
       .setColor("#000000")
       .setDescription(`
